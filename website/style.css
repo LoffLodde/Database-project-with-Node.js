@@ -1,0 +1,52 @@
+* {
+  /*Dokumentet kommer med defult margin og padding, jeg velger å starte på ny.*/
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(58, 58, 58);
+}
+
+header {
+  background: rgb(113, 121, 113);
+  padding: 20px 100px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px 20px 0px 0px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+section {
+  background: rgb(93, 146, 85);
+  color: whitesmoke;
+  padding: 20px;
+  display: flex;
+}
+footer {
+  background: rgb(211, 157, 57);
+  color: chocolate;
+}
+
+div {
+  /*disply er by defult = block*/
+  background: red;
+  margin: auto;
+  /*innline = på rekke. Innline block, da kan man bestemme with*/
+  width: 100px;
+}
